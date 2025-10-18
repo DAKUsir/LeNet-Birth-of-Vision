@@ -102,6 +102,7 @@ for path in GLAUCOMA_PATHS:
             all_samples.append((os.path.join(path,f), label))
 print('Total samples:', len(all_samples))
 ```
+<img width="389" height="411" alt="image" src="https://github.com/user-attachments/assets/930af64c-2f88-4b24-8242-6fdfd6e35e6e" />
 
 ### 3) Transforms and Dataset
 
@@ -224,6 +225,8 @@ plt.subplot(1,2,1); plt.plot(train_losses,label='train'); plt.plot(val_losses,la
 plt.subplot(1,2,2); plt.plot(val_accs,label='val_acc'); plt.title('Val Accuracy'); plt.legend()
 plt.show()
 ```
+<img width="1189" height="490" alt="image" src="https://github.com/user-attachments/assets/a31121ac-5a73-476c-b61c-b80602136002" />
+
 
 ### 9) Save & load
 
